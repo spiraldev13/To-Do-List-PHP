@@ -1,0 +1,22 @@
+.tasks{
+  padding: 0;
+}
+.tasks li{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em 0 0.7em 1em;
+  font-size: 1.1em;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 6px solid #eaeaea;
+  border-radius: 5px 0 0 5px;
+  transition: 0.2s border-left-width ease-in-out
+}
+
+.tasks li:hover{
+  border-left-width: 15px;
+}
+
+.tasks .tasks_red{
+  border-left-color: red;
+  color: red;
+}

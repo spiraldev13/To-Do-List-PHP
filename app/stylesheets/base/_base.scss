@@ -1,4 +1,17 @@
 body{
   width: 60%;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+a{
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
 }

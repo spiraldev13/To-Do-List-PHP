@@ -11,18 +11,18 @@
 
   <header class="header">
     <h1>Todolist Spiral_Dev 13</h1>
-    <nav>
-      <a href="#">All</a>
+    <nav class="filters">
+      <a class="active" href="#">All</a>
       <a href="#">Completed</a>
       <a href="#">Todo</a>
     </nav>
   </header>
 
   <main class="main">
-    <ul>
-      <li>
-        <span>Le texte de la tache</span>
-        <div class="">
+    <ul class="tasks">
+      <li class="tasks_red">
+        <span class="item-labels">Le texte de la tache</span>
+        <div class="item-actions filters">
           <a href="#">Check</a>
           <a href="#">Cat</a>
           <a href="#">Edit</a>
@@ -30,26 +30,8 @@
         </div>
       </li>
       <li>
-        <span>Le texte de la tache 2</span>
-        <div class="">
-          <a href="#">Check</a>
-          <a href="#">Cat</a>
-          <a href="#">Edit</a>
-          <a href="#">Del</a>
-        </div>
-      </li>
-      <li>
-        <span>Le texte de la tache 3</span>
-        <div class="">
-          <a href="#">Check</a>
-          <a href="#">Cat</a>
-          <a href="#">Edit</a>
-          <a href="#">Del</a>
-        </div>
-      </li>
-      <li>
-        <span>Le texte de la tache 4</span>
-        <div class="">
+        <span class="item-labels">Le texte de la tache</span>
+        <div class="item-actions">
           <a href="#">Check</a>
           <a href="#">Cat</a>
           <a href="#">Edit</a>
