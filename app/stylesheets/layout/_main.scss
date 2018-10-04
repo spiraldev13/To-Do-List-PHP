@@ -4,6 +4,7 @@
 .tasks li{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.7em 0 0.7em 1em;
   font-size: 1.1em;
   border-bottom: 1px solid #eaeaea;
@@ -16,7 +17,17 @@
   border-left-width: 15px;
 }
 
-.tasks .tasks_red{
-  border-left-color: red;
-  color: red;
+.item_form{
+  display: none;
+}
+
+.tasks .tasks_red{ border-left-color: red; color: red;}
+.tasks .tasks_blue{ border-left-color: blue; color: blue;}
+.tasks .tasks_purple{ border-left-color: purple; color: purple;}
+.tasks .tasks_green{ border-left-color: green; color: green;}
+
+.item-actions a{
+  color: black;
+  padding: 7px 10px;
+  font-size: 0.8em;
 }
