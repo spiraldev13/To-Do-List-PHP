@@ -21,9 +21,9 @@
   display: none;
 }
 
-.tasks .tasks_red{ border-left-color: red; color: red;}
-.tasks .tasks_blue{ border-left-color: blue; color: blue;}
-.tasks .tasks_purple{ border-left-color: purple; color: purple;}
+.tasks .tasks_work{ border-left-color: red; color: red;}
+.tasks .tasks_perso{ border-left-color: blue; color: blue;}
+.tasks .tasks_cart{ border-left-color: purple; color: purple;}
 .tasks .tasks_green{ border-left-color: green; color: green;}
 
 .item-actions a{
@@ -31,3 +31,13 @@
   padding: 7px 10px;
   font-size: 0.8em;
 }
+
+.done{
+  opacity: 0.3;
+}
+
+
+.filters .tasks_work{ border-left-color: red; color: red;}
+.filters .tasks_perso{ border-left-color: blue; color: blue;}
+.filters .tasks_cart{ border-left-color: purple; color: purple;}
+.filters .tasks_green{ border-left-color: green; color: green;}

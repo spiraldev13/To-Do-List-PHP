@@ -10,7 +10,7 @@ var app = {
 
 //DECLENCHEMENT DES FONCTIONS
 },
-
+// Affiche le formulaire de modification d'une tache précise.
 showEditForm: function(){
   //on cible le formulaire associé
   var form = $(this).parent().prev();
