@@ -4,26 +4,32 @@
 if (!isset($_SESSION['tasks'])) {
 
 $_SESSION['tasks'] =[
-  ['title' => 'Acheter du lait',
+  [
+   'id' => 1,
+   'title' => 'Acheter du lait',
    'category' => 'cart',
    'done' => false
  ],
  [
+   'id' => 2,
    'title' => 'Appeler Philippe',
    'category' => 'work',
    'done' => false
  ],
  [
+   'id' => 3,
    'title' => ' Appeler Maxime',
    'category' => 'work',
    'done' => true
  ],
  [
+   'id' => 4,
    'title' => 'Donner à manger au chat',
    'category' => 'perso',
    'done' => false
  ],
  [
+   'id' => 5,
    'title' => 'Acheter des croquettes',
    'category' => 'perso',
    'done' => true
